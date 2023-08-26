@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Sidebar from './components/sidebar';
-import { Analytics } from '@vercel/analytics/react';
 
 const graphik = localFont({
   src: [
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://albionkaferi.com'),
   title: {
     default: 'Albion Kaferi',
-    template: '%s | Albion Kaferi',
+    template: 'Albion Kaferi',
   },
   description: 'Developer, student.',
   openGraph: {
@@ -74,7 +73,6 @@ export default function RootLayout({
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Sidebar />
           {children}
-          <Analytics />
         </main>
       </body>
     </html>
