@@ -22,9 +22,14 @@ const projects = [
     href: 'https://github.com/albionkaferi/pug-bot'
   },
   {
-    title: 'Steves Forum',
+    title: 'Stevens Forum',
     description: 'An academic forum for Steven\'s students to discuss topics and ask questions.',
-    href: 'https://github.com/cloh54/StevesForum'
+    href: 'https://github.com/cloh54/StevensForum'
+  },
+  {
+    title: 'Personal Website',
+    description: 'This website.',
+    href: 'https://github.com/albionkaferi/personal-website'
   }
 ]
 
