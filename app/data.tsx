@@ -1,18 +1,8 @@
+import { Twitter, Mail } from "lucide-react";
+
 export const socials = [
   {
-    logo: (
-      <svg
-        className="fill-black dark:fill-white"
-        width="20"
-        height="20"
-        role="img"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title>Gmail</title>
-        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
-      </svg>
-    ),
+    logo: <Mail size={20} />,
     alt: "Mail",
     href: "mailto:albionkaferi02@gmail.com",
     text: "albionkaferi02@gmail.com",
@@ -38,17 +28,7 @@ export const socials = [
     text: "github.com/albionkaferi",
   },
   {
-    logo: (
-      <svg
-        className="fill-black dark:fill-white"
-        width="20"
-        height="20"
-        viewBox="0 0 1200 1227"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" />
-      </svg>
-    ),
+    logo: <Twitter size={20} />,
     alt: "Twitter",
     href: "https://twitter.com/albionkaferi",
     text: "twitter.com/albionkaferi",
@@ -57,31 +37,81 @@ export const socials = [
 
 export const projects = [
   {
+    title: "Harbor Currents",
+    description:
+      "Mobile application for harbor pilots that displays the Newark Bay currents.",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/albionkaferi/HarborCurrents",
+      },
+    ],
+  },
+  {
     title: "App Tracker",
     description:
       "Desktop application that allows users to set limits on applications.",
-    href: "https://github.com/albionkaferi/app-tracker",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/albionkaferi/app-tracker",
+      },
+    ],
+  },
+  {
+    title: "Transcribely",
+    description: "Wrapper for OpenAI's whisper model",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/albionkaferi/app-tracker",
+      },
+      {
+        title: "Website",
+        href: "https://www.transcribely.org/",
+      },
+    ],
+  },
+  {
+    title: "Overwatch PUG Bot",
+    description: "Discord matchmaking bot for Overwatch custom games.",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/albionkaferi/pug-bot",
+      },
+    ],
+  },
+  {
+    title: "Personal Website",
+    description: "This website.",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/albionkaferi/personal-website",
+      },
+    ],
   },
   {
     title: "LibreLearn",
     description:
       "A free alternative for students to create, share, and study flashcards.",
-    href: "https://github.com/albionkaferi/LibreLearn",
-  },
-  {
-    title: "Overwatch PUG Bot",
-    description: "Discord matchmaking bot for Overwatch custom games.",
-    href: "https://github.com/albionkaferi/pug-bot",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/albionkaferi/LibreLearn",
+      },
+    ],
   },
   {
     title: "Stevens Forum",
     description:
       "An academic forum for Steven's students to discuss topics and ask questions.",
-    href: "https://github.com/cloh54/StevensForum",
-  },
-  {
-    title: "Personal Website",
-    description: "This website.",
-    href: "https://github.com/albionkaferi/personal-website",
+    links: [
+      {
+        title: "Code",
+        href: "https://github.com/cloh54/StevensForum",
+      },
+    ],
   },
 ];
