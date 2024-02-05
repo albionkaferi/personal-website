@@ -10,8 +10,9 @@ export default function Page() {
         <div className="flex space-x-2">
           {socials.map((social) => (
             <a
+              key={social.alt}
               href={social.href}
-              className="rounded-md hover:bg-neutral-800 p-2"
+              className="rounded-md hover:bg-neutral-200 dark:hover:bg-neutral-800 p-2"
             >
               {social.logo}
             </a>
@@ -22,7 +23,7 @@ export default function Page() {
         I'm a student at Stevens Institue of Technology studying Computer
         Science. I'm interested in web development, machine learning, and app
         development. In my free time, I enjoy going to the gym and playing
-        soccer, basketball, or volleyball. I also enjoy watching good movies and
+        soccer, basketball, or volleyball. I also enjoy watching movies and
         playing chess.
       </p>
     </section>

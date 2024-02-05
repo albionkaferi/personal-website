@@ -9,7 +9,9 @@ export const metadata: Metadata = {
 export default async function ProjectsPage() {
   return (
     <section>
-      <h1 className="font-bold text-2xl mb-8 tracking-tighter">projects</h1>
+      <h1 className="font-bold text-2xl mb-8 tracking-tighter">
+        featured projects
+      </h1>
       <ul className="mb-8 list-none">
         {projects.map((project) => (
           <li key={project.title} className="mb-4">
@@ -23,10 +25,10 @@ export default async function ProjectsPage() {
               <div className="flex space-x-4 mt-1">
                 {project.links?.map((link) => (
                   <a
-                    key={link.href}
+                    key={link.title}
                     href={link.href}
                     target="_blank"
-                    className="inline-flex items-center text-gray-400 hover:text-white hover:translate-x-0.5 hover:-translate-y-0.5 transition-all ease-in-out duration-300"
+                    className="inline-flex items-center dark:text-gray-400 dark:hover:text-white text-gray-600 hover:text-black hover:translate-x-0.5 hover:-translate-y-0.5 transition-all ease-in-out duration-300"
                   >
                     <svg
                       width="12"
@@ -40,7 +42,7 @@ export default async function ProjectsPage() {
                         fill="currentColor"
                       />
                     </svg>
-                    <span className="ml-2">{link.title}</span>
+                    <span className="ml-1.5">{link.title}</span>
                   </a>
                 ))}
               </div>
