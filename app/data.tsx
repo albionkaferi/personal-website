@@ -37,9 +37,19 @@ export const socials = [
 
 export const projects = [
   {
+    title: "twainGPT",
+    description: "AI writing enhancer SaaS product.",
+    links: [
+      {
+        title: "Website",
+        href: "https://www.twaingpt.com",
+      },
+    ],
+  },
+  {
     title: "Harbor Currents",
     description:
-      "Mobile application for harbor pilots that displays the Newark Bay currents.",
+      "Mobile app for harbor pilots that displays the Newark Bay currents.",
     links: [
       {
         title: "Code",
@@ -79,28 +89,6 @@ export const projects = [
       {
         title: "Code",
         href: "https://github.com/albionkaferi/pug-bot",
-      },
-    ],
-  },
-  {
-    title: "LibreLearn",
-    description:
-      "A free alternative for students to create, share, and study flashcards.",
-    links: [
-      {
-        title: "Code",
-        href: "https://github.com/albionkaferi/LibreLearn",
-      },
-    ],
-  },
-  {
-    title: "Stevens Forum",
-    description:
-      "An academic forum for Steven's students to discuss topics and ask questions.",
-    links: [
-      {
-        title: "Code",
-        href: "https://github.com/cloh54/StevensForum",
       },
     ],
   },
