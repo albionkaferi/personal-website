@@ -1,4 +1,4 @@
-import { Twitter, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 export const socials = [
   {
@@ -28,10 +28,10 @@ export const socials = [
     text: "github.com/albionkaferi",
   },
   {
-    logo: <Twitter size={20} />,
-    alt: "Twitter",
-    href: "https://twitter.com/albionkaferi",
-    text: "twitter.com/albionkaferi",
+    logo: <Linkedin size={20} />,
+    alt: "Linkedin",
+    href: "https://www.linkedin.com/in/albionkaferi",
+    text: "linkedin.com/in/albionkaferi",
   },
 ];
 
